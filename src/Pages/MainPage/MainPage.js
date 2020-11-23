@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import "../../scss/_mainPage.scss";
 import TEst from "../Test/TEst";
+import video from '../../media/filmik.mp4'
 
 const MainPage = () => {
     const [widthIt, setWidthIt] = useState(50);
@@ -49,10 +50,14 @@ const MainPage = () => {
             </div>
             <div onMouseEnter={handlemousekite} onMouseLeave={mosueleaveit} style={kiteStyle} className="kite_container">
                 <div className="title kite_container-title">
-                    <div className="foto_kite"></div>
+                    <div className="foto_kite content"></div>
                     <h1>HI, I'M KUBA</h1>
                     <h2>/ KITESURFER /</h2>
                 </div>
+                {widthIt <=20 ? <div className="video_container"><video autoPlay muted loop className="video">
+                    <source src={video} type="video/mp4"/>
+                </video> </div>: null}
+
             </div>
         </div>
             </>
