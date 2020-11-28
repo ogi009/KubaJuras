@@ -1,0 +1,32 @@
+.butons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.butons button {
+  width: 10rem;
+  padding: 1rem;
+  margin: 1rem;
+  color: #61dafb;
+  background-image: url("../../media/Black-Background-Picture.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  font-family: 'Big Shoulders Inline Text', cursive;;
+  font-size: 2rem;
+  transition: all 1s;
+}
+
+.butons button:hover {
+  cursor: pointer;
+  opacity: .6;
+  color: white;
+  border-radius: 10px;
+  transition: all 1s;
+  transform: scale(1.5);
+  box-shadow: 13px 10px 15px -16px rgba(242,242,242,1);
+}

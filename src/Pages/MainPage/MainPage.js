@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import "../../scss/_mainPage.scss";
-import TEst from "../Test/TEst";
+import Buttons from "../../components/Buttons/Buttons";
 import video from '../../media/filmik.mp4'
 
 const MainPage = () => {
@@ -45,7 +45,7 @@ const MainPage = () => {
                     </div>
 
                 </div>
-                {widthIt >= 80 ? <TEst/> : null}
+                {widthIt >= 80 ? <Buttons/> : null}
 
             </div>
             <div onMouseEnter={handlemousekite} onMouseLeave={mosueleaveit} style={kiteStyle} className="kite_container">
