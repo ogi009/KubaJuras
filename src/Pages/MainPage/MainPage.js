@@ -54,7 +54,7 @@ const MainPage = () => {
                     <h1>HI, I'M KUBA</h1>
                     <h2>/ KITESURFER /</h2>
                 </div>
-                {widthIt <=20 ? <div className="video_container"><video autoPlay muted loop className="video">
+                {widthIt <=20 ? <div className="video_container"><video poster="../../media/bgvideo.png" autoPlay muted loop className="video">
                     <source src={video} type="video/mp4"/>
                 </video> </div>: null}
 
