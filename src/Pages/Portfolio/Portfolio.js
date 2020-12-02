@@ -76,7 +76,7 @@ const Portfolio = () => {
                                     assignment.</p>
                             </div>
                             <div className="section_image2">
-
+                                <a href="https://themarriagegames.netlify.app/">GO TO THE WEBSITE</a>
                             </div>
                         </section> : null}
                     </div>
