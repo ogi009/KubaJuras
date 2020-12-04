@@ -92,7 +92,7 @@ const Portfolio = () => {
                                     Working on the project allowed me to understand more about creating React applications, using the SASS preprocessor and creating the RWD website..</p>
                             </div>
                             <div className="section_image3">
-
+                                <a href="https://portfolio-lab-project.netlify.app/">GO TO THE WEBSITE</a>
                             </div>
                         </section> : null}
                     </div>

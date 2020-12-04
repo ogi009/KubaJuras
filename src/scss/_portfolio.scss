@@ -116,6 +116,13 @@
   justify-content: center;
 
 }
+.section_image3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+
+}
 .section_image2:before {
   content: " ";
   background-image: url("../../src/media/mariage.png");
@@ -175,4 +182,6 @@
   padding: 10px;
   font-family: 'Big Shoulders Inline Text', cursive;
   font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
 }
