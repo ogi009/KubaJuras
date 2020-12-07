@@ -126,7 +126,7 @@ html {
   background-position: center;
   background-size: cover;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .main_container {
     width: 100vw;
     height: 96vh;
@@ -149,12 +149,12 @@ html {
   .kite_container-title {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 50px;
   }
   .it_container-title {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 10px;
   }
   .title h1 {
     font-size: 2rem;
