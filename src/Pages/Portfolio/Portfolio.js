@@ -32,7 +32,7 @@ const Portfolio = () => {
             </header>
             <div className="flex_container">
                 <div className="el-1">
-                    <h1>PROJECTS</h1>
+                    <h1 className="logo-3">PROJECTS</h1>
                 </div>
                 <div className="el-2"></div>
                 <div className="el-3">

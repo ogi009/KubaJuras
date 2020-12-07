@@ -198,3 +198,23 @@
 .el-3 {
   overflow: hidden;
 }
+.logo-3 {
+  position: relative;
+}
+.logo-3:before {
+  content: "PROJECTS";
+  position: absolute;
+  animation: ok 0.5s 0.5s alternate;
+  z-index: 1;
+}
+@keyframes ok {
+  50% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+    color: white;
+  }
+}

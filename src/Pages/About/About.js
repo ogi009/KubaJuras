@@ -12,7 +12,7 @@ const About = () => {
             </header>
             <div className="flex_container">
                 <div className="el-1">
-                    <h1>ABOUT</h1>
+                    <h1 className="logo-1">ABOUT</h1>
                 </div>
                 <div className="el-2"></div>
                 <div className="el-3-about about">

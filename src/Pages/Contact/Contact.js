@@ -10,7 +10,7 @@ const Contact = () => {
         }
     );
     const [success, setSuccess] = useState(false);
-    const onSubmit = (data,e) => {
+    const onSubmit = (data, e) => {
 
         const API = "https://fer-api.coderslab.pl/v1/portfolio/contact";
         fetch(`${API}`, {
@@ -39,32 +39,33 @@ const Contact = () => {
             </header>
             <div className="flex_container">
                 <div className="el-1">
-                    <h1>CONTACT</h1>
+                    <h1 className="logo-2">CONTACT</h1>
                 </div>
                 <div className="el-2"></div>
-                <div className="el-3">
+                <div className="el-3-contact">
                     <form onSubmit={handleSubmit(onSubmit)} className="form">
                         <div className="form1">
-                            <h1>Skontaktuj się z nami</h1>
-
-                            {success === true ? <h2 style={{color: "green", margin: "1em"}}>Wiadomość została wysłana!<br/> Wkrótce się skontaktujemy!</h2> : null}
+                            <h1>"Get in touch"</h1>
+                            <h2>Do not hesitate to contact me by email: <p>kubajuras86@gmail.com</p> or use the form</h2>
+                            {success === true ?
+                                <h2 style={{color: "green", margin: "1em"}}>Message sent!<br/> Thank You!</h2> : null}
                         </div>
                         <div className="input_container">
                             <label>
-                                <p>Wpisz swoję imię</p>
+                                <p>Name</p>
                                 <input name="name" ref={register({required: true, minLength: 3})}/>
-                                {errors.name && <span style={{fontWeight: "bold", color: "red"}}>Imię jest za krótkie</span>}
+                                {errors.name &&
+                                <span style={{fontWeight: "bold", color: "red"}}>Imię jest za krótkie</span>}
                             </label>
                             <label>
-                                <p>Wpisz swój email</p>
+                                <p>Email</p>
                                 <input name="email"
                                        ref={register({pattern: /^(([^<>()[\],;:\s@]+(\.[^<>()\],;:\s@]+)*)|(.+))@(([^<>()[\],;:\s@]+\.)+[^<>()[\],;:\s@]{2,})$/i})}/>
-                                {errors.email && <span style={{fontWeight: "bold", color: "red"}}>Wpisz prawdiłowy email</span>}
+                                {errors.email &&
+                                <span style={{fontWeight: "bold", color: "red"}}>Wpisz prawdiłowy email</span>}
                             </label>
-                        </div>
-                        <div className="textarea_container">
                             <label>
-                                <p>Wpisz treść wiadomości</p>
+                                <p>Message</p>
                             </label>
                             <textarea name="message" ref={register({required: true, minLength: 120})}/>
                             {errors.textarea && <span style={{fontWeight: "bold", color: "red"}}>Wiadomość musi mieć conajmniej 120 znaków</span>}
