@@ -55,20 +55,20 @@ const Contact = () => {
                                 <p>Name</p>
                                 <input name="name" ref={register({required: true, minLength: 3})}/>
                                 {errors.name &&
-                                <span style={{fontWeight: "bold", color: "red"}}>Imię jest za krótkie</span>}
+                                <span style={{fontWeight: "bold", color: "red"}}>Name is too short</span>}
                             </label>
                             <label>
                                 <p>Email</p>
                                 <input name="email"
                                        ref={register({pattern: /^(([^<>()[\],;:\s@]+(\.[^<>()\],;:\s@]+)*)|(.+))@(([^<>()[\],;:\s@]+\.)+[^<>()[\],;:\s@]{2,})$/i})}/>
                                 {errors.email &&
-                                <span style={{fontWeight: "bold", color: "red"}}>Wpisz prawdiłowy email</span>}
+                                <span style={{fontWeight: "bold", color: "red"}}>Email is not correct</span>}
                             </label>
                             <label>
                                 <p>Message</p>
                             </label>
                             <textarea name="message" ref={register({required: true, minLength: 120})}/>
-                            {errors.textarea && <span style={{fontWeight: "bold", color: "red"}}>Wiadomość musi mieć conajmniej 120 znaków</span>}
+                            {errors.message && <span style={{fontWeight: "bold", color: "red"}}>Min. 120 words</span>}
                             <button type="submit">Wyślij</button>
                         </div>
                     </form>
