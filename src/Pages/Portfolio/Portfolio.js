@@ -43,7 +43,7 @@ const Portfolio = () => {
                         </div>
                         {show ? <section>
                             <div className="section_content">
-                                <h1>TECHNOLOGIES: <p>HTML, CSS, REACT</p></h1>
+                                <h2>TECHNOLOGIES: <p>HTML, CSS, REACT</p></h2>
                                 <p>DESCRIPTION: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eveniet
                                     illo
                                     laboriosam provident rem vero? Aliquam id illo ipsum magnam, nobis repellat veniam
@@ -65,7 +65,7 @@ const Portfolio = () => {
                         </div>
                         {show1 ? <section>
                             <div className="section_content">
-                                <h1>TECHNOLOGIES: <p>HTML, CSS, REACT</p></h1>
+                                <h2>TECHNOLOGIES: <p>HTML, CSS, REACT</p></h2>
                                 <p>The application compares two users in terms of chores. Thanks to it, you can see who
                                     walks out the dog more often or who had been doing the dinner more times, etc.
                                     The user gets points for each task. The user with the most points can draw a movie
@@ -87,7 +87,7 @@ const Portfolio = () => {
                         </div>
                         {show2 ? <section>
                             <div className="section_content">
-                                <h1>TECHNOLOGIES: <p>HTML, CSS, REACT, JavaScritp</p></h1>
+                                <h2>TECHNOLOGIES: <p>HTML, CSS, REACT, JavaScritp</p></h2>
                                 <p>The project was created as part of completing the Portfolio Lab course at Coders Lab.
                                     Working on the project allowed me to understand more about creating React applications, using the SASS preprocessor and creating the RWD website..</p>
                             </div>

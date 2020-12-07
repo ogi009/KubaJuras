@@ -2,6 +2,7 @@ import React from 'react';
 import "../../scss/_about.scss";
 import Buttons2 from "../../components/Buttons2/Buttons2";
 import cv from "../../media/cv.png";
+import {Link} from "react-router-dom";
 
 const About = () => {
     return (
@@ -14,11 +15,21 @@ const About = () => {
                     <h1>ABOUT</h1>
                 </div>
                 <div className="el-2"></div>
-                <div className="el-3 about">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta enim laudantium magni pariatur, provident sed veritatis? Accusantium alias atque aut consequatur, dolorum eligendi eos error, eum illum iusto laudantium mollitia nihil odit perferendis rem tenetur vero. Cum dolores fugit laudantium odit officiis sed sint voluptatibus. Adipisci eveniet officia quos!</p>
+                <div className="el-3-about about">
+                    <div>
+                        <p>My name is Kuba and I am a beginner front-end web developer. Each of my website is created
+                            with
+                            care of latest design and coding trends. I spend most of my time improving development and
+                            design to push projects to the next level and to make them unique and timeless</p>
+                        <p>On daily basis, I use HTML, CSS, JS, REACT, Figma, Bootstrap and Sass.</p>
+
+                        <p>I'm a passionate kiter and snowkiter. Whilst not staring at a screen, you can find me
+                            on the water or snow :)</p>
+                    </div>
+
                     <div>
                         <img src={cv} alt="cv_photo"/>
-                        <button>POBIERZ</button>
+                        <Link to="/Jakub Juras CV.pdf" target="_blank" download>POBIERZ</Link>
                     </div>
                 </div>
                 <div className="el-4"></div>

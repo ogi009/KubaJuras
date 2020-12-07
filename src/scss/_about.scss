@@ -22,12 +22,12 @@
   display: flex;
 }
 .about p {
-  width: 50%;
   font-size: 2rem;
   color: white;
   text-align: center;
   font-family: 'Big Shoulders Inline Text', cursive;
-  margin: 2rem;
+  margin: 1rem;
+  border-radius: 20px;
 }
 .about img {
   height: 25rem;
@@ -37,7 +37,7 @@
   text-align: center;
   transition: 1s;
 }
-.about div button {
+.about a {
   margin-top: 1rem;
   color: #61dafb;
   background-image: url("../../src/media/Black-Background-Picture.png");
@@ -47,4 +47,16 @@
   font-family: 'Big Shoulders Inline Text', cursive;;
   font-size: 2rem;
   padding: 1rem;
+  border: 1px solid darkgrey;
+}
+.el-3-about {
+  display: flex;
+}
+.el-3-about div {
+  display: flex;
+  flex-direction: column;
+}
+.about div {
+  display: flex;
+  flex-direction: column;
 }
