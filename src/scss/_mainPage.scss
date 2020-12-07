@@ -1,6 +1,7 @@
 html {
   background-color: black;
 }
+
 .main_container {
   width: 80vw;
   height: 90vh;
@@ -124,4 +125,44 @@ html {
   background-image: url("../../src/media/bgvideo.png");
   background-position: center;
   background-size: cover;
+}
+@media (max-width: 500px) {
+  .main_container {
+    width: 100vw;
+    height: 96vh;
+    margin: 0;
+  }
+  .it_container  {
+    width: 100%;
+    height: 100%;
+  }
+  .foto_it {
+    width: 5em;
+    height: 5em;
+
+  }
+  .foto_kite {
+    width: 5em;
+    height: 5em;
+    margin: 1rem auto;
+  }
+  .kite_container-title {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  .it_container-title {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .title h1 {
+    font-size: 2rem;
+  }
+  .title h2 {
+    font-size: 1rem;
+  }
+  .it_container div {
+    justify-content: flex-end;
+  }
 }

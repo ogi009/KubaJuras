@@ -15,9 +15,7 @@ function App() {
                     <Route path='/About' component={About}/>
                     <Route path='/Contact' component={Contact}/>
                 </Switch>
-                <footer className="app_footer">
-                    <div className="app_container"><p>Design by </p> <p>Kuba Juras </p> <p>2020 ©</p></div>
-                </footer>
+
             </div>
         </>
     );
