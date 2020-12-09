@@ -72,6 +72,9 @@
   animation: ok 0.5s 0.5s alternate;
   z-index: 1;
 }
+.el-3-about {
+  overflow: auto;
+}
 @keyframes ok {
  50% {
    transform: scale(1.1);
