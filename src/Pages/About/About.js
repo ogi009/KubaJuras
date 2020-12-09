@@ -25,12 +25,21 @@ const About = () => {
 
                         <p>I'm a passionate kiter and snowkiter. Whilst not staring at a screen, you can find me
                             on the water or snow :)</p>
+                        <div className="icon_container">
+                            <i className="fab fa-html5"></i>
+                            <i className="fab fa-css3-alt"></i>
+                            <i className="fab fa-js-square"></i>
+                            <i className="fab fa-react"></i>
+                            <i className="fab fa-sass"></i>
+                            <i className="fab fa-git"></i>
+                        </div>
                     </div>
 
                     <div>
                         <img src={cv} alt="cv_photo"/>
                         <Link to="/Jakub Juras CV.pdf" target="_blank" download>POBIERZ CV</Link>
                     </div>
+
                 </div>
                 <div className="el-4"></div>
             </div>
