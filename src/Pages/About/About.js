@@ -29,7 +29,7 @@ const About = () => {
 
                     <div>
                         <img src={cv} alt="cv_photo"/>
-                        <Link to="/Jakub Juras CV.pdf" target="_blank" download>POBIERZ</Link>
+                        <Link to="/Jakub Juras CV.pdf" target="_blank" download>POBIERZ CV</Link>
                     </div>
                 </div>
                 <div className="el-4"></div>

@@ -218,4 +218,26 @@
     color: white;
   }
 }
-
+@media (max-width: 800px) {
+  .el-1 h1 {
+    font-size:2rem;
+  }
+  .el-3 div div h1 {
+    font-size: 16px;
+  }
+  .el-3 div section div:last-child {
+    display: none;
+  }
+  .el-3 div section h2 {
+    font-size: 1rem;
+  }
+  .el-3 div section p {
+    font-size: 10px;
+  }
+  .fas {
+    font-size: 1rem;
+  }
+  .el-3 {
+    overflow: auto;
+  }
+}
