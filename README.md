@@ -12,6 +12,5 @@ Project is created with:
   * react: "^17.0.1",
   * react-dom: "^17.0.1",
   * react-hook-form: "^6.12.2",
-  * 
-  react-router-dom: "^5.2.0",
+  * react-router-dom: "^5.2.0",
   * emailjs-com: "^2.6.4"
