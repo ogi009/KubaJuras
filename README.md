@@ -7,7 +7,9 @@
 
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+I designed and wrote the application to present myself and my portfolio.
+The main page is divided into two screens, on the first screen, a Menu with appropriate links appears (Portfolio, About, Contact), on the second screen, there is a movie that summarizes my career in kitesurfing.
+The application is also available in a mobile version.
 	
 ## Technologies
 Project is created with:
