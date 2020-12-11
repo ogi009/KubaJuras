@@ -43,14 +43,10 @@ const Portfolio = () => {
                         </div>
                         {show ? <section>
                             <div className="section_content">
-                                <h2>TECHNOLOGIES: <p>HTML, CSS, REACT</p></h2>
-                                <p>DESCRIPTION: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eveniet
-                                    illo
-                                    laboriosam provident rem vero? Aliquam id illo ipsum magnam, nobis repellat veniam
-                                    voluptate. Aperiam cum dignissimos dolores eaque eius error et illo ipsa, laborum
-                                    molestiae neque non obcaecati odio omnis quae reprehenderit rerum tempora unde
-                                    veniam
-                                    vero, voluptates voluptatum?</p>
+                                <h2>TECHNOLOGIES: <p>HTML, SASS, REACT, EmailJS</p></h2>
+                                <p>I designed and wrote the application to present myself and my portfolio.
+                                    The main page is divided into two screens, on the first screen, a Menu with appropriate links appears (Portfolio, About, Contact), on the second screen, there is a movie that summarizes my career in kitesurfing.
+                                    The application is also available in a mobile version.</p>
                             </div>
                             <div className="section_image">
 
