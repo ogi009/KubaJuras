@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import "../../scss/_contact.scss";
 import Buttons2 from "../../components/Buttons2/Buttons2";
 import {useForm} from "react-hook-form";
+import * as emailjs from 'emailjs-com';
 
 const Contact = () => {
     const {register, handleSubmit, errors} = useForm(
@@ -10,18 +11,13 @@ const Contact = () => {
         }
     );
     const [success, setSuccess] = useState(false);
+
     const onSubmit = (data, e) => {
 
-        const API = "https://fer-api.coderslab.pl/v1/portfolio/contact";
-        fetch(`${API}`, {
-            method: "POST"
-            ,
-            body: JSON.stringify(data),
-            headers: {
-                "Content-Type": "application/json"
-            }
-        })
-            .then(response => response.json())
+
+        emailjs.sendForm('service_w4elsxo', 'template_997zjcb', '#myForm', 'user_dpOFv8KtlDdLY5evgn2Ih')
+
+
             .then(data => {
                 console.log(data);
             })
@@ -43,7 +39,7 @@ const Contact = () => {
                 </div>
                 <div className="el-2"></div>
                 <div className="el-3-contact">
-                    <form onSubmit={handleSubmit(onSubmit)} className="form">
+                    <form onSubmit={handleSubmit(onSubmit)} className="form" id="myForm">
                         <div className="form1">
                             <h1>"Get in touch"</h1>
                             <h2>Do not hesitate to contact me by email: <p>kubajuras86@gmail.com</p> or use the form</h2>
@@ -67,8 +63,8 @@ const Contact = () => {
                             <label>
                                 <p>Message</p>
                             </label>
-                            <textarea name="message" ref={register({required: true, minLength: 120})}/>
-                            {errors.message && <span style={{fontWeight: "bold", color: "red"}}>Min. 120 words</span>}
+                            <textarea name="message" ref={register({required: true, minLength: 30})}/>
+                            {errors.message && <span style={{fontWeight: "bold", color: "red"}}>Min. 30 words</span>}
                             <button type="submit">Wyślij</button>
                         </div>
                     </form>
