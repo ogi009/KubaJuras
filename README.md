@@ -1,4 +1,4 @@
-#KUBA JURAS PORTFOLIO WEBSITE
+# KUBA JURAS PORTFOLIO WEBSITE
 
 ## Table of contents
 * [General info](#general-info)
