@@ -73,7 +73,7 @@ const Portfolio = () => {
                                 <a className="mobile_button" href="https://themarriagegames.netlify.app/">GO TO THE WEBSITE</a>
                             </div>
                             <div className="section_image2">
-                                <a href="https://themarriagegames.netlify.app/">GO TO THE WEBSITE</a>
+                                <a href="https://themarriagegames.netlify.app/" target="_blank" rel="noreferrer">GO TO THE WEBSITE</a>
                             </div>
                         </section> : null}
                     </div>
@@ -90,7 +90,7 @@ const Portfolio = () => {
                                 <a className="mobile_button" href="https://portfolio-lab-project.netlify.app/">GO TO THE WEBSITE</a>
                             </div>
                             <div className="section_image3">
-                                <a href="https://portfolio-lab-project.netlify.app/">GO TO THE WEBSITE</a>
+                                <a href="https://portfolio-lab-project.netlify.app/" target="_blank" rel="noreferrer">GO TO THE WEBSITE</a>
                             </div>
                         </section> : null}
                     </div>
