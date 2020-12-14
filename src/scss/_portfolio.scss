@@ -210,6 +210,9 @@
 .el-3 {
   overflow: auto;
 }
+.mobile_button {
+  display: none;
+}
 @keyframes ok {
   50% {
     transform: scale(1.1);
@@ -247,5 +250,17 @@
   }
   .el-3 {
     overflow: auto;
+  }
+  .mobile_button {
+    display: block;
+    color: #61dafb;
+    background-image: url("../../src/media/Black-Background-Picture.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    font-family: 'Big Shoulders Inline Text', cursive;;
+    font-size: 10px;
+    padding: 0.5rem;
+    border: 1px solid darkgrey;
   }
 }

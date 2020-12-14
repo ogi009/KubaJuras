@@ -42,6 +42,7 @@ const MainPage = () => {
                             <div className="foto_it"></div>
                             <h1>HI, I'M KUBA</h1>
                             <h2>/ FRONTEND DEVELOPER /</h2>
+                            <h1>Click Me!</h1>
                         </div>
 
                     </div>
@@ -54,6 +55,7 @@ const MainPage = () => {
                         <div className="foto_kite content"></div>
                         <h1>HI, I'M KUBA</h1>
                         <h2>/ KITESURFER /</h2>
+                        <h1>Click Me!</h1>
                     </div>
                     {widthIt <= 20 ? <div className="video_container">
                         <video poster="../../media/bgvideo.png" autoPlay muted loop className="video">

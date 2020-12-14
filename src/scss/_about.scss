@@ -79,7 +79,7 @@
 }
 .fab {
   color: #61dafb;
-  font-size: 3rem;
+  font-size: 3em;
   margin: 15px;
   text-align: center;
 }
@@ -119,5 +119,9 @@
   }
   .about div:first-child {
     height: unset;
+    overflow: unset;
+  }
+  .about div div {
+    font-size: 6px;
   }
 }
