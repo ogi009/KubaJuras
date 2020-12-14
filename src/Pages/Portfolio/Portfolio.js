@@ -70,7 +70,7 @@ const Portfolio = () => {
                                     or the restaurant). They also get extra points for organising them.
                                     The project was created as a part of the programming course completion
                                     assignment.</p>
-                                <button className="mobile_button" href="https://themarriagegames.netlify.app/">GO TO THE WEBSITE</button>
+                                <a className="mobile_button" href="https://themarriagegames.netlify.app/">GO TO THE WEBSITE</a>
                             </div>
                             <div className="section_image2">
                                 <a href="https://themarriagegames.netlify.app/">GO TO THE WEBSITE</a>
@@ -87,7 +87,7 @@ const Portfolio = () => {
                                 <h2>TECHNOLOGIES: <p>HTML, CSS, REACT, JavaScritp</p></h2>
                                 <p>It is a Landing page with a menu on the top. The project was created as part of completing the Portfolio Lab course at Coders Lab.
                                     Working on the project allowed me to understand more about creating React applications, using the SASS preprocessor and creating the RWD website..</p>
-                                <button className="mobile_button" href="https://portfolio-lab-project.netlify.app/">GO TO THE WEBSITE</button>
+                                <a className="mobile_button" href="https://portfolio-lab-project.netlify.app/">GO TO THE WEBSITE</a>
                             </div>
                             <div className="section_image3">
                                 <a href="https://portfolio-lab-project.netlify.app/">GO TO THE WEBSITE</a>
