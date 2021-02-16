@@ -37,7 +37,7 @@ const About = () => {
 
                     <div>
                         <img src={cv} alt="cv_photo"/>
-                        <Link to="/Jakub Juras CV.pdf" target="_blank" download>DOWNLOAD CV</Link>
+                        <Link to="/Jakub Juras CV.pdf" target="_blank" download>Download CV</Link>
                     </div>
 
                 </div>
