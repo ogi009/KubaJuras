@@ -64,8 +64,8 @@ const Contact = () => {
                                 <p>Message</p>
                             </label>
                             <textarea name="message" ref={register({required: true, minLength: 20})}/>
-                            {errors.message && <span style={{fontWeight: "bold", color: "red"}}>Min. 20 letters</span>}
-                            <button type="submit">SEND</button>
+                            {errors.message && <span style={{fontWeight: "bold", color: "red"}}>Min. 20 letters;)</span>}
+                            <button type="submit">Send</button>
                         </div>
                     </form>
                 </div>
